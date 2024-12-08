@@ -1,6 +1,6 @@
 import { CiMicrophoneOn, CiSearch } from "react-icons/ci";
 import { SlSocialGoogle } from "react-icons/sl";
-import "./index.css";
+import "./index.module.css";
 export const Hero = () => {
   const languages = ["हिन्दी", "বাংলা", "తెలుగు", "मराठी", "मराठी"];
   return (

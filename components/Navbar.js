@@ -1,6 +1,6 @@
 import { FaFlask } from "react-icons/fa";
 import { IoGridOutline } from "react-icons/io5";
-import "./index.css";
+import "./index.module.css";
 export const Navbar = () => {
   return (
     <>
