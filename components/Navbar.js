@@ -36,15 +36,17 @@ export const Navbar = () => {
             style={{
               height: "45px",
               width: "45px",
-              borderRadius: "50px",
+              borderRadius: "50%",
               overflow: "hidden",
             }}
           >
             <img
               style={{
-                width: "60px",
-                borderRadius: "50px",
+                width: "45px",
+                height: "45px",
+                borderRadius: "50%",
                 marginRight: ".6em",
+                objectFit: 'cover'
               }}
               src="https://t4.ftcdn.net/jpg/02/45/56/35/360_F_245563558_XH9Pe5LJI2kr7VQuzQKAjAbz9PAyejG1.jpg"
               alt="demo"
