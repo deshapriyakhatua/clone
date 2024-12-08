@@ -1,10 +1,10 @@
 import { FaFlask } from "react-icons/fa";
 import { IoGridOutline } from "react-icons/io5";
-import "./index.module.css";
+import styles from "./index.module.css";
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar">
+      <div className={styles.navbar}>
         <div
           style={{
             display: "flex",
@@ -13,8 +13,8 @@ export const Navbar = () => {
             fontWeight: 500,
           }}
         >
-          <a className="mobile-w">About</a>
-          <a className="mobile-w">Store</a>
+          <a className={styles.mobile_w}>About</a>
+          <a className={styles.mobile_w}>Store</a>
         </div>
         <div
           style={{
